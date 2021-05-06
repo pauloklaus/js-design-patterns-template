@@ -1,0 +1,33 @@
+{
+  "name": "js-design-patterns-template",
+  "version": "0.0.1",
+  "description": "Basic template of design pattern in javascript.",
+  "author": "Paulo Sergio Klaus",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/pauloklaus/js-design-patterns-template/issues"
+  },
+  "homepage": "https://github.com/pauloklaus/js-design-patterns-template#readme",
+  "keywords": [
+    "javascript",
+    "design",
+    "pattern",
+    "factory",
+    "dependence",
+    "injection",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauloklaus/js-design-patterns-template.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "npm run serve",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
